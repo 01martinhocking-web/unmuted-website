@@ -37,4 +37,4 @@
 @media(max-width:740px){.music-showcase{min-height:auto;padding-top:75px;padding-bottom:85px}.music-cover{width:min(100%,390px)}}
 
 /* Artwork alignment only: lift the featured cover without resizing it. */
-@media(min-width:741px){.music-cover-image{transform:translateY(-48px)}}
+@media(min-width:741px){.music-cover-image{transform:translateY(-40px)}}
