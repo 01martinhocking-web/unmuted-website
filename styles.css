@@ -38,3 +38,6 @@
 
 /* Artwork alignment only: lift the featured cover without resizing it. */
 @media(min-width:741px){.music-cover-image{transform:translateY(-40px)}}
+
+/* Featured cover size adjustment: 550px desktop, keep vertical offset unchanged. */
+@media(min-width:741px){.music-layout{grid-template-columns:minmax(0,1fr) minmax(300px,550px)}.music-cover{max-width:550px}}
