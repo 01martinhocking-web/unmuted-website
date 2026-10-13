@@ -19,3 +19,7 @@
 /* Compact featured artwork on wide and short desktop monitors. */
 @media(min-width:741px){.music-layout{grid-template-columns:minmax(0,1fr) minmax(230px,360px);gap:clamp(25px,5vw,90px);justify-content:space-between}.music-cover{width:100%;max-width:360px;justify-self:end;box-shadow:10px 10px 0 #25292c}.music-showcase h2{font-size:clamp(52px,6vw,88px)}}
 @media(max-width:740px){.music-cover{width:min(100%,310px);justify-self:center;box-shadow:8px 8px 0 #25292c}}
+
+/* Mid-sized featured artwork, between the original oversized and compact versions. */
+@media(min-width:741px){.music-layout{grid-template-columns:minmax(0,1fr) minmax(300px,480px)}.music-cover{max-width:480px}}
+@media(max-width:740px){.music-cover{width:min(100%,390px)}}
