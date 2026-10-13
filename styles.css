@@ -39,5 +39,5 @@
 /* Artwork alignment only: lift the featured cover without resizing it. */
 @media(min-width:741px){.music-cover-image{transform:translateY(-40px)}}
 
-/* Enlarge the artwork itself without altering grid columns or section dimensions. */
-@media(min-width:741px){.music-cover-image{width:550px;max-width:none;justify-self:center;position:relative;left:25px}}
+/* Visually enlarge the 500px artwork by 10% without changing the layout footprint. */
+@media(min-width:741px){.music-cover-image{width:100%;max-width:500px;left:auto;position:relative;transform:translateY(-40px) scale(1.1);transform-origin:center center}}
