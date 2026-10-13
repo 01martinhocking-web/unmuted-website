@@ -29,8 +29,6 @@
 @media(min-width:741px){.music-layout{grid-template-columns:minmax(0,1fr) minmax(300px,clamp(390px,39vw,540px));gap:clamp(25px,4vw,72px);align-items:center}.music-cover{width:100%;max-width:540px;justify-self:center;box-shadow:10px 10px 0 #25292c}}
 @media(max-width:740px){.music-cover{width:min(100%,390px)}}
 
-/* Make the lettering invert automatically where it crosses the black BE HEARD panel. */
-.statement p{isolation:isolate}.statement-permission{position:relative;z-index:2;color:var(--lime);mix-blend-mode:difference}.statement em{position:relative;z-index:1}
 
 /* Restore generous featured-section height and balance cover spacing. */
 .music-showcase{padding-top:100px;padding-bottom:110px;min-height:760px;display:flex;flex-direction:column;justify-content:center}
