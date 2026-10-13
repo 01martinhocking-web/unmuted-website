@@ -31,3 +31,9 @@
 
 /* Make the lettering invert automatically where it crosses the black BE HEARD panel. */
 .statement p{isolation:isolate}.statement-permission{position:relative;z-index:2;color:var(--lime);mix-blend-mode:difference}.statement em{position:relative;z-index:1}
+
+/* Restore generous featured-section height and balance cover spacing. */
+.music-showcase{padding-top:100px;padding-bottom:110px;min-height:760px;display:flex;flex-direction:column;justify-content:center}
+.music-showcase .section-kicker{margin-bottom:42px}
+@media(min-width:741px){.music-layout{grid-template-columns:minmax(0,1fr) minmax(300px,500px);align-items:center}.music-cover{max-width:500px;justify-self:center}}
+@media(max-width:740px){.music-showcase{min-height:auto;padding-top:75px;padding-bottom:85px}.music-cover{width:min(100%,390px)}}
