@@ -23,3 +23,8 @@
 /* Mid-sized featured artwork, between the original oversized and compact versions. */
 @media(min-width:741px){.music-layout{grid-template-columns:minmax(0,1fr) minmax(300px,480px)}.music-cover{max-width:480px}}
 @media(max-width:740px){.music-cover{width:min(100%,390px)}}
+
+/* Frame featured artwork with breathing room between section boundaries. */
+.music-showcase{padding-top:clamp(38px,6vh,72px);padding-bottom:clamp(38px,6vh,72px)}
+@media(min-width:741px){.music-layout{grid-template-columns:minmax(0,1fr) minmax(300px,clamp(390px,39vw,540px));gap:clamp(25px,4vw,72px);align-items:center}.music-cover{width:100%;max-width:540px;justify-self:center;box-shadow:10px 10px 0 #25292c}}
+@media(max-width:740px){.music-cover{width:min(100%,390px)}}
