@@ -35,3 +35,6 @@
 .music-showcase .section-kicker{margin-bottom:42px}
 @media(min-width:741px){.music-layout{grid-template-columns:minmax(0,1fr) minmax(300px,500px);align-items:center}.music-cover{max-width:500px;justify-self:center}}
 @media(max-width:740px){.music-showcase{min-height:auto;padding-top:75px;padding-bottom:85px}.music-cover{width:min(100%,390px)}}
+
+/* Artwork alignment only: lift the featured cover without resizing it. */
+@media(min-width:741px){.music-cover-image{transform:translateY(-48px)}}
