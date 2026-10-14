@@ -5,7 +5,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 (function(){
   const tracks={
     real:{title:"I'M AS REAL AS ANYBODY ELSE — JAX RYDER",src:"I'm%20As%20Real%20As%20Anybody%20Else.mp3"},
-    built:{title:"BUILT DIFFERENT",src:"BUILT%20DIFFERENT.mp3"}
+    built:{title:"BUILT DIFFERENT — JAX RYDER",src:"BUILT%20DIFFERENT.mp3"}
   };
   const player=document.getElementById('chart-demo-player');
   const audio=document.getElementById('chart-demo-audio');
