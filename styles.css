@@ -46,3 +46,26 @@
 .statement p{isolation:auto}
 .statement-permission{position:relative;z-index:2;color:var(--lime);mix-blend-mode:difference}
 .statement p em{position:relative;z-index:1}
+
+/* Clearly labelled concept mock-up of the future Australian Top 40. */
+.chart-preview{background:#0d0f14;color:#f4f2eb;padding-top:95px;padding-bottom:100px}
+.chart-preview-heading{display:grid;grid-template-columns:1.2fr .8fr;gap:55px;align-items:end;margin:28px 0 38px}
+.chart-preview-eyebrow{font-size:11px;font-weight:900;letter-spacing:.16em;color:var(--lime)}
+.chart-preview h2{font-size:clamp(76px,10vw,150px);line-height:.79;margin:20px 0 0}
+.chart-preview h2 span{color:var(--lime)}
+.chart-preview-heading p{max-width:430px;color:#b7b9c0;line-height:1.8;font-size:15px}
+.chart-preview-heading p strong{color:#fff}
+.chart-preview-panel{border:1px solid #41464c;background:#151820}
+.chart-preview-bar,.chart-preview-foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:17px 24px;font-size:10px;font-weight:900;letter-spacing:.12em}
+.chart-preview-bar{background:var(--lime);color:#111}
+.chart-preview-bar span{font-size:10px}
+.chart-preview-row{display:grid;grid-template-columns:95px minmax(0,1fr) auto;gap:20px;align-items:center;padding:20px 24px;border-top:1px solid #363b43}
+.chart-rank{font-family:'Barlow Condensed',Impact,sans-serif;font-size:62px;line-height:1;color:var(--lime);font-weight:900}
+.chart-song{display:flex;flex-direction:column;gap:7px;min-width:0}
+.chart-song strong{font-size:clamp(17px,2.5vw,28px);font-weight:900;letter-spacing:.01em}
+.chart-song small{font-size:10px;letter-spacing:.12em;color:#a4a9b3;font-weight:800}
+.chart-status{font-size:10px;letter-spacing:.12em;border:1px solid #717782;padding:9px 12px;color:#c5c8d0;font-weight:900}
+.chart-preview-foot{color:#9ca1ab;border-top:1px solid #363b43}
+.chart-preview-note{margin:26px 0 0;color:#b7b9c0;font-size:14px;line-height:1.8}
+.chart-preview-note a{color:var(--lime);font-weight:900}
+@media(max-width:740px){.chart-preview{padding-top:65px;padding-bottom:70px}.chart-preview-heading{grid-template-columns:1fr;gap:14px}.chart-preview h2{font-size:clamp(65px,13vw,105px)}.chart-preview-row{grid-template-columns:48px minmax(0,1fr);gap:12px;padding:18px 14px}.chart-rank{font-size:48px}.chart-status{grid-column:2;justify-self:start}.chart-preview-bar,.chart-preview-foot{padding:14px;font-size:9px}}
