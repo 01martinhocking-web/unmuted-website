@@ -40,4 +40,4 @@
 @media(min-width:741px){.music-cover-image{transform:translateY(-40px)}}
 
 /* Visually enlarge the 500px artwork by 10% without changing the layout footprint. */
-@media(min-width:741px){.music-cover-image{width:100%;max-width:500px;left:auto;position:relative;transform:translateY(-40px) scale(1.15);transform-origin:center center}}
+@media(min-width:741px){.music-cover-image{width:100%;max-width:500px;left:auto;position:relative;transform:translateY(-32px) scale(1.2);transform-origin:center center}}
