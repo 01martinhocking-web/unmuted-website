@@ -98,3 +98,17 @@
 .anthem-video iframe{display:block;width:100%;aspect-ratio:16/9;height:auto;border:1px solid #535961;background:#090a0d}
 .anthem-video-caption{font-size:10px;letter-spacing:.15em;font-weight:900;color:#9da2aa;margin-top:15px}
 @media(max-width:900px){.anthem-layout{grid-template-columns:1fr}.anthem-section{padding-top:65px;padding-bottom:70px}.anthem-section h2{font-size:clamp(68px,12vw,105px)}}
+
+/* Interactive chart showcase: demo tracks are not rankings. */
+.chart-demo-select{width:100%;background:transparent;color:inherit;border-left:0;border-right:0;border-bottom:0;text-align:left;font:inherit;cursor:pointer;transition:background .15s ease}
+.chart-demo-select:hover,.chart-demo-select:focus-visible{background:#242b32;outline:2px solid var(--lime);outline-offset:-2px}
+.chart-demo-select[aria-pressed="true"]{background:#242b32}
+.chart-demo-select[aria-pressed="true"] .chart-status{background:var(--lime);color:#101116;border-color:var(--lime)}
+.chart-demo-player{padding:22px 24px;border-top:1px solid #363b43;background:#20252c}
+.chart-demo-player[hidden]{display:none}
+.chart-demo-player-heading{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.chart-demo-player-heading span{font-size:10px;letter-spacing:.12em;color:var(--lime);font-weight:900}
+.chart-demo-player-heading strong{font-size:14px}
+.chart-demo-player audio{display:block;width:100%;max-width:680px}
+.chart-demo-player p{font-size:11px;color:#b7b9c0;margin:12px 0 0}
+@media(max-width:740px){.chart-demo-player{padding:18px 14px}.chart-demo-select{font-size:inherit}}
