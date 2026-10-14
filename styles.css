@@ -112,3 +112,12 @@
 .chart-demo-player audio{display:block;width:100%;max-width:680px}
 .chart-demo-player p{font-size:11px;color:#b7b9c0;margin:12px 0 0}
 @media(max-width:740px){.chart-demo-player{padding:18px 14px}.chart-demo-select{font-size:inherit}}
+
+/* Specific hosting partnership invitation. */
+.hosting-pitch{border-top:2px solid #101116;border-bottom:1px solid #c8c9c5;margin:25px 0 20px;padding:23px 0 17px}
+.hosting-pitch h3{font-family:'Barlow Condensed',Impact,sans-serif;font-size:clamp(28px,3.4vw,40px);line-height:1;letter-spacing:.025em;margin:0 0 12px}
+.partner-layout .hosting-pitch p{font-size:13px;line-height:1.7;color:#45494d;margin:0 0 15px}
+.hosting-pitch-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:20px 0 5px}
+.hosting-pitch-grid strong{display:block;font-size:11px;letter-spacing:.09em;margin-bottom:9px}
+.partner-layout .hosting-pitch .hosting-pitch-note{font-size:11px;color:#62666b;margin:8px 0 0}
+@media(max-width:560px){.hosting-pitch-grid{grid-template-columns:1fr;gap:8px}}
