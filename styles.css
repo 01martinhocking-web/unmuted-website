@@ -69,3 +69,19 @@
 .chart-preview-note{margin:26px 0 0;color:#b7b9c0;font-size:14px;line-height:1.8}
 .chart-preview-note a{color:var(--lime);font-weight:900}
 @media(max-width:740px){.chart-preview{padding-top:65px;padding-bottom:70px}.chart-preview-heading{grid-template-columns:1fr;gap:14px}.chart-preview h2{font-size:clamp(65px,13vw,105px)}.chart-preview-row{grid-template-columns:48px minmax(0,1fr);gap:12px;padding:18px 14px}.chart-rank{font-size:48px}.chart-status{grid-column:2;justify-self:start}.chart-preview-bar,.chart-preview-foot{padding:14px;font-size:9px}}
+
+/* Partnership invitation for prospective founding supporters. */
+.partner-section{background:#f4f2eb;color:#101116;padding-top:90px;padding-bottom:95px}
+.partner-layout{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(290px,.7fr);gap:clamp(35px,6vw,95px);align-items:center;margin-top:38px}
+.partner-eyebrow{font-size:11px;font-weight:900;letter-spacing:.15em}
+.partner-section h2{font-size:clamp(70px,9vw,132px);line-height:.82;margin:23px 0 30px}
+.partner-section h2 span{color:#718700}
+.partner-layout>div>p{font-size:15px;line-height:1.8;max-width:650px;color:#45494d}
+.partner-layout .partner-disclosure{font-size:12px;color:#62666b;margin:18px 0 28px}
+.partner-panel{background:#111318;color:#f4f2eb;min-height:370px;padding:clamp(26px,3vw,45px);display:flex;flex-direction:column;justify-content:space-between;gap:24px}
+.partner-panel>span{font-size:10px;letter-spacing:.15em;font-weight:900;color:var(--lime)}
+.partner-panel strong{font-family:'Barlow Condensed',Impact,sans-serif;font-size:clamp(45px,5vw,77px);font-weight:900;line-height:.88}
+.partner-panel strong em{font-style:normal;color:var(--lime)}
+.partner-panel p{color:#b5b9c1;font-size:13px;line-height:1.85;margin:0}
+.partner-panel .partner-panel-foot{color:#999fa8;font-size:9px}
+@media(max-width:740px){.partner-section{padding-top:65px;padding-bottom:70px}.partner-layout{grid-template-columns:1fr;gap:32px}.partner-section h2{font-size:clamp(65px,13vw,100px)}.partner-panel{min-height:300px}}
