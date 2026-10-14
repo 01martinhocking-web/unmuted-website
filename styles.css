@@ -144,3 +144,20 @@
 .sponsor-showcase-bottom a{font-size:12px;font-weight:900;color:var(--lime);text-decoration:none}
 .sponsor-showcase-bottom a:hover{text-decoration:underline}
 @media(max-width:740px){.sponsor-showcase{padding-top:65px;padding-bottom:70px}.sponsor-showcase-head,.sponsor-support{grid-template-columns:1fr}.sponsor-feature-mark{display:none}.sponsor-feature strong{font-size:clamp(48px,11vw,80px)}}
+
+/* Sponsor-facing phased development roadmap. */
+.roadmap-section{background:#f4f2eb;color:#111318;padding-top:85px;padding-bottom:85px}
+.roadmap-intro{display:grid;grid-template-columns:1fr .85fr;gap:40px;align-items:end;margin:35px 0 38px}
+.roadmap-eyebrow{font-size:10px;font-weight:900;letter-spacing:.15em}
+.roadmap-section h2{font-size:clamp(70px,9vw,128px);line-height:.83;margin:20px 0 0}
+.roadmap-section h2 span{color:#718700}
+.roadmap-intro>p{font-size:14px;line-height:1.85;color:#4d5356;max-width:530px}
+.roadmap-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.roadmap-step{background:#15191e;color:#f4f2eb;padding:clamp(23px,2.8vw,36px);min-height:305px;display:flex;flex-direction:column}
+.roadmap-stage{font-size:11px;font-weight:900;letter-spacing:.15em;color:var(--lime)}
+.roadmap-step h3{font-family:'Barlow Condensed',Impact,sans-serif;font-size:clamp(32px,3.7vw,50px);line-height:1;margin:28px 0 16px}
+.roadmap-step p{font-size:13px;line-height:1.75;color:#bec3c8;margin:0 0 26px}
+.roadmap-state{margin-top:auto;align-self:flex-start;border:1px solid #657078;padding:8px 10px;font-size:10px;font-weight:900;letter-spacing:.1em}
+.roadmap-foot{font-size:11px;line-height:1.7;color:#62686a;margin:19px 0 0}
+@media(max-width:850px){.roadmap-grid{grid-template-columns:1fr}.roadmap-step{min-height:0}.roadmap-intro{grid-template-columns:1fr;gap:15px}}
+@media(max-width:740px){.roadmap-section{padding-top:65px;padding-bottom:65px}.roadmap-section h2{font-size:clamp(65px,13vw,100px)}}
