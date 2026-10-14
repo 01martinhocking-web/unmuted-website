@@ -41,3 +41,8 @@
 
 /* Visually enlarge the 500px artwork by 10% without changing the layout footprint. */
 @media(min-width:741px){.music-cover-image{width:100%;max-width:500px;left:auto;position:relative;transform:translateY(-22px) scale(1.2);transform-origin:center center}}
+
+/* Invert only the portion of PERMISSION TO overlapping the black BE HEARD label. */
+.statement p{isolation:auto}
+.statement-permission{position:relative;z-index:2;color:var(--lime);mix-blend-mode:difference}
+.statement p em{position:relative;z-index:1}
