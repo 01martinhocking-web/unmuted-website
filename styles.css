@@ -85,3 +85,16 @@
 .partner-panel p{color:#b5b9c1;font-size:13px;line-height:1.85;margin:0}
 .partner-panel .partner-panel-foot{color:#999fa8;font-size:9px}
 @media(max-width:740px){.partner-section{padding-top:65px;padding-bottom:70px}.partner-layout{grid-template-columns:1fr;gap:32px}.partner-section h2{font-size:clamp(65px,13vw,100px)}.partner-panel{min-height:300px}}
+
+/* Official UNMUTED anthem video showcase. */
+.anthem-section{background:#181b20;color:#f4f2eb;padding-top:90px;padding-bottom:95px}
+.anthem-layout{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);align-items:center;gap:clamp(30px,5vw,80px);margin-top:40px}
+.anthem-eyebrow{color:var(--lime);font-size:11px;letter-spacing:.16em;font-weight:900}
+.anthem-section h2{font-size:clamp(70px,8.5vw,125px);line-height:.82;margin:23px 0 28px}
+.anthem-section h2 span{color:var(--lime)}
+.anthem-copy p{font-size:15px;line-height:1.8;color:#c4c6cd;max-width:540px}
+.anthem-copy .anthem-signoff{font-size:11px;font-weight:900;letter-spacing:.14em;color:#f4f2eb;margin:22px 0 27px}
+.anthem-video{min-width:0}
+.anthem-video iframe{display:block;width:100%;aspect-ratio:16/9;height:auto;border:1px solid #535961;background:#090a0d}
+.anthem-video-caption{font-size:10px;letter-spacing:.15em;font-weight:900;color:#9da2aa;margin-top:15px}
+@media(max-width:900px){.anthem-layout{grid-template-columns:1fr}.anthem-section{padding-top:65px;padding-bottom:70px}.anthem-section h2{font-size:clamp(68px,12vw,105px)}}
