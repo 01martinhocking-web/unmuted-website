@@ -29,3 +29,33 @@ body{background:#101116;color:#eee}
 .home-chart{background:#17191f;color:#f0f0f0}.home-chart>p{color:#bfc0c7}.home-chart-row{background:#24262d;border-left-color:#ef333b}.home-chart-row>small{color:#b1b3b9}.home-feature{background:#0c0d11}.sponsor-showcase{background:#15161c;color:#f2f2f2}
 @media(max-width:950px){.hero:not(.home-hero) .hero-content{max-width:100%;padding-right:clamp(20px,8vw,90px)}.unmuted-hero-art{position:relative;right:auto;top:auto;width:100%;height:310px;margin:-80px auto 80px}.hero:not(.home-hero){min-height:unset}.hero:not(.home-hero) h1{font-size:clamp(65px,10vw,110px)}.hero-side{display:none}}
 @media(max-width:600px){.unmuted-hero-art{height:230px;margin:-50px auto 90px}.art-logo{font-size:clamp(55px,13vw,90px)}.art-kangaroo{font-size:95px}.hero:not(.home-hero) h1{font-size:clamp(59px,12vw,88px)}}
+
+/* Reference-art-led landing page: true interactive header, headings and buttons. */
+.concept-header{height:78px;background:#080c11;border-bottom:0;padding:12px clamp(20px,6.5vw,110px);position:relative;z-index:5}
+.concept-brand{display:flex;flex-direction:column;align-items:flex-start;gap:0;line-height:1.1}
+.concept-brand .brand-name{font-family:'Barlow Condensed',Impact,sans-serif;font-weight:900;font-size:clamp(29px,2.5vw,40px);letter-spacing:-.04em;background:linear-gradient(#fff,#a3a8b2 55%,#4d5562);background-clip:text;color:transparent}
+.concept-brand .brand-name span{background:linear-gradient(#ff7778,#d92733 65%,#76161d);background-clip:text;color:transparent}
+.concept-brand small{font-size:9px;font-weight:800;letter-spacing:.24em;color:#c5c5c9}
+.concept-header nav{align-items:center;gap:clamp(14px,2.4vw,44px);text-transform:uppercase;font-weight:700;letter-spacing:.08em}
+.concept-header nav a{padding:12px 0}.concept-header nav .active{color:#f13c45;border-bottom:2px solid #e82c35}
+.concept-listen{border-radius:50px;background:linear-gradient(110deg,#f03c43,#b71a24);color:white;padding:14px 28px;white-space:nowrap;font-weight:900;font-size:12px;letter-spacing:.05em}
+.concept-hero{min-height:calc(100svh - 78px)!important;background:radial-gradient(ellipse at 50% 68%,#14151e 0%,#080c11 63%,#06080b 100%);display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;overflow:hidden;padding:12px 0 24px}
+.concept-hero-intro{z-index:2;width:100%;padding:0 22px}
+.concept-eyebrow{font-size:clamp(11px,1.05vw,17px);letter-spacing:.44em;color:#d2d2d5;margin:0 0 13px;font-weight:600}
+.concept-hero h1{font-family:'Barlow Condensed',Impact,sans-serif;font-size:clamp(48px,5.3vw,89px)!important;line-height:.91!important;margin:0 auto 17px!important;letter-spacing:-.014em;background:linear-gradient(#fff,#e1e2e6 60%,#9c9da5);background-clip:text;color:transparent}
+.concept-hero h1 em{display:inline-block;font-style:normal;color:#e93640;background:linear-gradient(#ff777d,#e22c37 65%,#b91d29);background-clip:text;-webkit-text-fill-color:transparent}
+.concept-lead{font-family:'DM Sans',Arial,sans-serif;font-size:clamp(13px,1.05vw,18px);line-height:1.65;color:#d7d7db;margin:0 auto 15px;max-width:830px}
+.concept-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.concept-button{padding:14px 22px;border-radius:32px;font-size:12px;font-weight:900;letter-spacing:.02em;transition:transform .2s}
+.concept-button:hover{transform:translateY(-3px)}
+.concept-button.red{background:linear-gradient(100deg,#ef4149,#bd1d28);color:white}
+.concept-button.outline{border:1px solid #9d9fa6;color:white;background:#0c0d1388}
+.concept-art{width:100%;max-width:1672px;position:relative;flex:1;min-height:230px;display:flex;align-items:center;justify-content:center;margin:0 auto}
+.concept-art img{width:100%;height:auto;display:block;image-rendering:auto;filter:saturate(1.15)}
+.concept-scroll{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;position:relative;z-index:2;margin:-12px auto 2px;color:#e4e4e8;font-size:12px;font-weight:900;letter-spacing:.3em}
+.concept-scroll b{flex-basis:100%;font-size:26px;font-weight:400;line-height:.5}
+.scroll-wave{width:clamp(55px,10vw,175px);height:2px;background:linear-gradient(90deg,transparent,#e9313b,transparent);box-shadow:0 0 10px #ef333b}
+.concept-demo{font-size:9px;letter-spacing:.12em;color:#8d929c;margin:9px 0 0}
+@media(min-width:1100px){.concept-art{max-height:50vh}.concept-art img{max-height:50vh;object-fit:contain}.concept-hero{justify-content:space-between}}
+@media(max-width:950px){.concept-header{height:auto;min-height:80px;flex-wrap:wrap;justify-content:center}.concept-header nav{order:3;justify-content:center;width:100%;flex-wrap:wrap}.concept-hero{min-height:calc(100svh - 120px)!important}.concept-art{min-height:180px}.concept-eyebrow{letter-spacing:.17em}}
+@media(max-width:600px){.concept-header{padding:16px}.concept-listen{padding:11px 16px}.concept-header nav{font-size:10px;gap:14px}.concept-hero{padding-top:25px}.concept-hero h1{font-size:clamp(42px,10vw,62px)!important;line-height:1!important}.concept-lead{font-size:13px}.desktop-only{display:none}.concept-art{min-height:155px}.concept-art img{width:145%;max-width:none}.concept-scroll{font-size:10px;gap:8px}.scroll-wave{width:45px}.concept-button{font-size:10px;padding:13px 15px}}
