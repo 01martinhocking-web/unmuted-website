@@ -59,3 +59,30 @@ body{background:#101116;color:#eee}
 @media(min-width:1100px){.concept-art{max-height:50vh}.concept-art img{max-height:50vh;object-fit:contain}.concept-hero{justify-content:space-between}}
 @media(max-width:950px){.concept-header{height:auto;min-height:80px;flex-wrap:wrap;justify-content:center}.concept-header nav{order:3;justify-content:center;width:100%;flex-wrap:wrap}.concept-hero{min-height:calc(100svh - 120px)!important}.concept-art{min-height:180px}.concept-eyebrow{letter-spacing:.17em}}
 @media(max-width:600px){.concept-header{padding:16px}.concept-listen{padding:11px 16px}.concept-header nav{font-size:10px;gap:14px}.concept-hero{padding-top:25px}.concept-hero h1{font-size:clamp(42px,10vw,62px)!important;line-height:1!important}.concept-lead{font-size:13px}.desktop-only{display:none}.concept-art{min-height:155px}.concept-art img{width:145%;max-width:none}.concept-scroll{font-size:10px;gap:8px}.scroll-wave{width:45px}.concept-button{font-size:10px;padding:13px 15px}}
+
+/* Desktop viewport-fit landing page and dedicated full-height chart panel. */
+html{scroll-padding-top:0}
+.concept-header{height:72px;padding-top:8px;padding-bottom:8px}
+.concept-hero{height:calc(100svh - 72px);min-height:0!important;padding:5px 0 10px;justify-content:space-between}
+.concept-hero-intro{flex:0 0 auto}
+.concept-eyebrow{margin-bottom:8px}
+.concept-hero h1{font-size:clamp(42px,min(5.1vw,9vh),80px)!important;margin-bottom:9px!important}
+.concept-lead{line-height:1.45;margin-bottom:11px}
+.concept-button{padding:11px 20px}
+.concept-art{flex:1 1 auto;min-height:0;margin:12px auto 0;overflow:hidden}
+.concept-art img{max-height:100%;max-width:100%;width:auto;height:100%;object-fit:contain}
+.concept-scroll{flex:0 0 auto;margin:0 auto 1px}
+.concept-demo{flex:0 0 auto;margin:5px 0 0}
+.home-chart{min-height:100svh;padding:clamp(40px,6vh,70px) clamp(22px,6vw,110px);display:flex;align-items:center;justify-content:center;box-sizing:border-box}
+.home-chart .chart-inner{width:min(100%,1040px);margin:auto}
+.home-chart .section-kicker{color:#e7434d;margin-bottom:14px}
+.home-chart h2{font-size:clamp(54px,6.2vw,104px);line-height:.9;margin:0 0 18px}
+.home-chart .chart-inner>p{font-size:clamp(14px,1.15vw,18px);color:#c9cbd0;line-height:1.5;max-width:780px}
+.home-chart .home-chart-list{margin:25px 0}
+.home-chart .home-chart-row{padding:clamp(13px,1.65vh,23px) clamp(18px,2vw,30px);grid-template-columns:80px 1fr auto;border-radius:2px}
+.home-chart .home-chart-row strong{font-size:clamp(28px,3vw,46px)}
+.home-chart .home-chart-row span{font-size:clamp(13px,1.35vw,19px);font-weight:700;letter-spacing:.02em}
+.home-chart .button{align-self:flex-start}
+@media(min-width:1100px){.concept-art{max-height:none}.concept-art img{max-height:100%;object-fit:contain}.concept-hero{justify-content:space-between}}
+@media(max-width:950px){.concept-header{height:auto}.concept-hero{height:auto;min-height:calc(100svh - 120px)!important}.concept-art{min-height:180px}.concept-art img{height:auto;width:100%}.home-chart{min-height:100svh}}
+@media(max-width:600px){.concept-hero{height:auto;min-height:calc(100svh - 140px)!important}.concept-art img{width:145%;max-width:none;height:auto}.home-chart .home-chart-row{grid-template-columns:48px 1fr}.home-chart .home-chart-row small{grid-column:2}.home-chart h2{font-size:clamp(44px,11vw,70px)}}
